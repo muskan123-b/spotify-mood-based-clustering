@@ -9,6 +9,7 @@ Everyone loves listening to music. It is far more than just a pleasant sound to 
 
 ## About Dataset
 The dataset is obtained by using the Spotify API. Following steps are required to obtain the dataset. 
+
 1.) After logging in to your spotify account, go to your profile section and click on **Privacy Setting** and then make a request to download the data.
 
 2.) Clicking on the request button will initiate the process of data gathering. Spotify usually takes 4–5 days to email your data. 
@@ -31,6 +32,9 @@ Cluster 4 (Acoustic + Sad): High acousticness, instrumentalness. Low danceabilit
 
 ## Conclusion
 The songs were categorized into different clusters based on their features. Also few insights that I obtained were:
+
 1.) Most of the songs that I listen belong to Cluster 4, which has sad and acoustic songs.
+
 2.) Sad songs usually have a longer duration than other songs.
+
 3.) Songs with more beats and energy are more popular than acoustics songs.
