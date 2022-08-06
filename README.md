@@ -16,3 +16,21 @@ The dataset is obtained by using the Spotify API. Following steps are required t
 3.) Once you receive a mail from Spotify, the contents will be in the form of zip folder, download and extract it. All of your information provided by Spotify will be in JSON format.
 
 4.) Now the last step would be to scrape the data. Reference: https://towardsdatascience.com/get-your-spotify-streaming-history-with-python-d5a208bbcbd3
+
+## Algorithm used
+In order to categorize data points (which in our case was songs) into clusters, I used one of the very famous unsupervised algorithm- **K-Means Clustering**. Further, for obtaining optimal number of clusters I used techniques like Elbow Method and Silhouette score.
+
+## Clusters obtained
+Cluster 1 (Beats + Gloomy): High danceability. Neutral acousticness, energy.
+
+Cluster 2 (Happy + Party vibes): High danceability, energy. Very less acousticness, instrumentalness.         
+
+Cluster 3 (Beats + Neutral): High danceability, energy, speechiness. Low acousticness, instrumentalness.
+
+Cluster 4 (Acoustic + Sad): High acousticness, instrumentalness. Low danceability, energy.
+
+## Conclusion
+The songs were categorized into different clusters based on their features. Also few insights that I obtained were:
+1.) Most of the songs that I listen belong to Cluster 4, which has sad and acoustic songs.
+2.) Sad songs usually have a longer duration than other songs.
+3.) Songs with more beats and energy are more popular than acoustics songs.
