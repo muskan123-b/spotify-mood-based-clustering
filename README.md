@@ -5,7 +5,7 @@ Everyone loves listening to music. It is far more than just a pleasant sound to 
 **Spotify** is one such platform on which you can listen to music and play millions of songs and podcasts for free. I have been using Spotify since 2-3 years now and haven't used any other platform since then. Being an avid Spotify user, one feature which I feel is lacking is Mood based Spotify playlists, where in I can just listen to songs by simply clicking on playlist related to whatever mood I am in. Thus, I tried clustering the songs according to various moods using my spotify listening data.
 
 
-<img src="http://media.idownloadblog.com/wp-content/uploads/2016/06/Spotify_logo_horizontal_black.jpg" width="450" height="200">
+<img src="http://media.idownloadblog.com/wp-content/uploads/2016/06/Spotify_logo_horizontal_black.jpg" width="650" height="200">
 
 ## About Dataset
 The dataset is obtained by using the Spotify API. Following steps are required to obtain the dataset. 
