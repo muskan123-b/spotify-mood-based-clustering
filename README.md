@@ -9,11 +9,10 @@ Everyone loves listening to music. It is far more than just a pleasant sound to 
 
 ## About Dataset
 The dataset is obtained by using the Spotify API. Following steps are required to obtain the dataset. 
-
 1.) After logging in to your spotify account, go to your profile section and click on **Privacy Setting** and then make a request to download the data.
 
 2.) Clicking on the request button will initiate the process of data gathering. Spotify usually takes 4–5 days to email your data. 
 
 3.) Once you receive a mail from Spotify, the contents will be in the form of zip folder, download and extract it. All of your information provided by Spotify will be in JSON format.
 
-4.) Now the last step would be to scrape the data.
+4.) Now the last step would be to scrape the data. Reference: https://towardsdatascience.com/get-your-spotify-streaming-history-with-python-d5a208bbcbd3
